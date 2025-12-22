@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Shahan Porfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi my name is <span class="purple">Shahan</span>
+                <div>And Iam a Web developer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button> 
+                </div>
+
+            </div>
+            <div class="rightsection"><img src="img/developer (2).png" alt=""></div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+            <div class="vertical"><img class="imagetop"  alt="">
+            <div class="verticaltitle">Frontend Developer</div>
+            <div class="verticaldesc">Created replica websites for popular brands like Netflix, Amazon, and Starbucks using HTML, CSS, and JavaScript. This work highlights my strong skills in front-end development and building responsive designs.</div>
+        </div>
+            <div class="vertical"><img class="imagetop"  alt="">
+            <div class="verticaltitle">React.js Developer</div>
+            <div class="verticaldesc">Built a news app using React.js that gathers and displays daily news articles. This project shows my skills in front-end development and in fetching data from external APIs.</div>
+        </div>
+            <div class="vertical"><img class="imagetop" alt="">
+            <div class="verticaltitle">Backend Developer (Node.js,Express.js)</div>
+            <div class="verticaldesc">Built a URL Shortener service using Node.js and Express.js that gives users short, easy-to-share links. This project shows my skills in backend development and database management.</div>
+        </div>
+            <div class="vertical"><img class="imagetop"  alt="">
+            <div class="verticaltitle">Backend Developer (Node.js,Express.js)</div>
+            <div class="verticaldesc">Developed a dynamic weather application using Node.js and Express.js that delivers daily weather updates for user-specified locations. This project highlights my backend development expertise and seamless API integration skills.</div>
+        </div>
+            <div class="vertical"><img class="imagetop" alt="">
+            <div class="verticaltitle">Full Stak Developer (React.js,Node.js,Express.js,MongoDb)</div>
+            <div class="verticaldesc">Developed a full-stack note-taking app using the MERN stack (MongoDB, Express.js, React.js, Node.js) that lets users create, read, update, and delete notes. This project showcases my skills in full-stack development and RESTful API design.</div>
+        </div>
+            
+        </div>
+        </section>
+    </main>
+    <footer>
+        <footer class="footer">
+            <div class="footer-top">
+              <h3>Shahan Developer Portfolio</h3>
+              <nav class="footer-nav">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="footer-bottom">
+              <p>&copy; 2025 Shahanportfolio.com | All Rights Reserved</p>
+            </div>
+          </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Full Stack Developer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
